@@ -1,0 +1,91 @@
+/* This targets the HTML element with an ID of "root".
+   The properties inside apply styling to the main container of your app. */
+   #root {
+    max-width: 1280px;       /* Maximum width of the container */
+    margin: 0 auto;          /* Centers the container horizontally */
+    padding: 2rem;           /* Spacing inside the container */
+    text-align: center;      /* Centers text inside the container */
+  }
+
+
+/* Global styles for the <body> element. */
+body {
+  background: black;       /* Set the background color */
+  color: #fff;             /* Set the text color */
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif; /* Set the font family */
+}
+
+/* Styles for icons */
+.icons {
+  padding-right: 10px;     /* Space to the right of the icon */
+  width: 30px;             /* Set icon width */
+  height: 30px;            /* Set icon height */
+}
+
+/* Styles for image elements */
+.images {
+  width: 100px;            /* Set image width */
+  height: 100px;           /* Set image height */
+}
+
+/* Styles for table elements. */
+table {
+  margin-left: auto;       /* Center the table horizontally (used with next line) */
+  margin-right: auto;      /* Center the table horizontally */
+  font-weight: 500;        /* Set font weight */
+}
+
+/* Styling for unordered lists. */
+ul {
+  list-style: none;        /* Remove bullet points */
+  margin: 25px 50px 75px 30px; /* Set margin around the list */
+}
+
+li.main-list {
+  padding: 25px;
+  border-bottom: solid 3px white;
+  font-size: larger
+}
+
+/* add more spacing between the name of the crypto coin and its price */
+.tab {
+  display: inline-block;
+  margin-left: 75px
+}
+
+
+.whole-page {
+  padding: 50px;           /* Spacing inside the container */
+  text-align: center;      /* Center the text */
+  background: black;       /* Set background color */
+  color: #fff;             /* Set text color */
+}
+
+
+nav {
+  position: fixed;         /* Fixes the nav bar to the viewport */
+  top: 0;                  /* Aligns the nav bar to the top */
+  right: 0;                /* Aligns the nav bar to the right */
+}
+
+.home-link {
+  border: 1px dotted white; /* Border style */
+  background: #1d1f1d;     /* Background color */
+  width: 75px;             /* Set width */
+}
+
+/* Styles for a sidebar navigation menu. */
+.sidenav {
+  height: 100%;            /* Full height */
+  width: 25%;              /* Set width */
+  position: fixed;         /* Fixes the sidebar to the viewport */
+  top: 0;                  /* Aligns to the top */
+  left: 0;                 /* Aligns to the left */
+  bottom: 0;               /* Aligns to the bottom, effectively setting full height */
+  background-color: #232323; /* Background color */
+  padding: 15px 10px;      /* Padding inside the sidebar */
+  display: flex;           /* Flexbox for layout */
+  overflow-y: scroll;      /* Allows for scrolling if content overflows */
+  flex-direction: column;  /* Stacks child elements vertically */
+  align-items: center;     /* Centers child elements horizontally */
+}
