@@ -62,12 +62,6 @@ li.main-list {
 }
 
 
-nav {
-  position: fixed;         /* Fixes the nav bar to the viewport */
-  top: 0;                  /* Aligns the nav bar to the top */
-  right: 0;                /* Aligns the nav bar to the right */
-}
-
 .home-link {
   border: 1px dotted white; /* Border style */
   background: #1d1f1d;     /* Background color */
@@ -88,4 +82,15 @@ nav {
   overflow-y: scroll;      /* Allows for scrolling if content overflows */
   flex-direction: column;  /* Stacks child elements vertically */
   align-items: center;     /* Centers child elements horizontally */
+}
+
+.sidenav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
 }

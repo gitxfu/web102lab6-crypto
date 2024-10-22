@@ -8,7 +8,7 @@ const CoinInfo = ({ image, name, symbol }) => {
 
 
     useEffect(() => {
-
+        // Step 6: Performance Improvement: Stop CoinInfo API calls when moving to another page
         const controller = new AbortController();
 
         const getCoinPrice = async () => {
