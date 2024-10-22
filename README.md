@@ -30,11 +30,7 @@ Crypto Hustle Dashboard is a React-based web application that provides real-time
 
 ### Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/crypto-hustle.git
-   cd crypto-hustle
-   ```
+1. Clone the repository
 
 2. Install dependencies:
    ```
@@ -79,11 +75,3 @@ This project uses the CryptoCompare API to fetch cryptocurrency data. The API ke
 ## Charts
 
 The application uses Recharts to display a 30-day historical price chart for each cryptocurrency. The chart data is fetched from the CryptoCompare API and processed to show the open price for each day.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
